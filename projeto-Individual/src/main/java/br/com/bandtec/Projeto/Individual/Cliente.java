@@ -37,6 +37,10 @@ public abstract class Cliente {
         return horaMarcada;
     }
 
+    public void setHoraMarcada(String horaMarcada){
+        this.horaMarcada = horaMarcada;
+
+    }
     public Double getValorCorte() {
         return valorCorte;
     }
